@@ -4,8 +4,7 @@ Pint Changelog
 0.19 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fix type annotation on UnitRegistry.parse_expression
 
 0.18 (2021-10-26)
 -----------------

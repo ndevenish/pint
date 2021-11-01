@@ -1295,7 +1295,7 @@ class BaseRegistry(metaclass=RegistryMeta):
 
     def parse_expression(
         self,
-        input_string: str,
+        input_string: Optional[str],
         case_sensitive: Optional[bool] = None,
         use_decimal: bool = False,
         **values,
